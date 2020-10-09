@@ -3,6 +3,9 @@
 ## Description
 BurgerApp is a app that lets users input the names of the burgers they'd like to eat
 
+<h4>Deployed Link: <a href="https://hidden-meadow-84053.herokuapp.com/burgers" target="_blank">View here</a></h4>
+
+
 
 ## Table of Contents
 * [Installation](#installation)
@@ -11,6 +14,7 @@ BurgerApp is a app that lets users input the names of the burgers they'd like to
 * [Contributions](#contributions)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Screenshots](#screenshots)
 
 ## Installation
 First clone the repo and opened it after that npm install then you can run it
