@@ -1,0 +1,18 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 45px;
+    background-image: url("../images/24060914.jpeg");
+ 	background-repeat: no-repeat;
+ 	background-size: cover; 	
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.card-header {
+    background-color: #343A40;
+    color: #fff;
+}
