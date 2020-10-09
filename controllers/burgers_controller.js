@@ -18,6 +18,20 @@ router.get("/burgers", function (req, res) {
     });
 });
 
+router.get("/", function (req, res) {
+
+    burger.all(function (data) {
+
+        var hbsObject = { burger_data: data };
+
+        console.log(hbsObject);
+
+        res.render("index", hbsObject);
+
+    });
+
+});
+
 // post route -> back to index
 router.post("/burgers/create", function (req, res) {
     // takes the request object using it as input for buger.addBurger
